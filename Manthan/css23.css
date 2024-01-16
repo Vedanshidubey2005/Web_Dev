@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#name{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: blueviolet;
+}
+#main{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* margin-top: 200; */
+    margin: 50px 50px;
+    display: block;
+    align-items: center;
+    /* justify-content: space-around; */
+    text-align: center;
+    background-color: bisque;
+    border-radius: 20px;
+}
+/* .all{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+} */
+#second{
+    margin: 50px 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+/* #myp{
+    display: flex;
+    ;
+} */
