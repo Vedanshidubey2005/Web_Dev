@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zebra Striping and Rounded Image Example</title>
+    <style>
+        /* Zebra striping for the table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        tr:nth-child(even) {
+            background-color: #b7b1b1;
+        }
+
+        /* Rounded image */
+        .rounded-image {
+            border-radius: 50%; /* Makes the image round */
+        }
+    </style>
+</head>
+<body>
+    <h1>Zebra Striping and Rounded Image Example</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>28</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+<br>
+ <!-- Rounded Image -->
+ <h1> Not Rounded Image</h1>
+ <img src="Blue & White Futuristic Technology Facebook Cover.png" alt="Rounded Image"  width="200" height="200">
+
+    <!-- Rounded Image -->
+    <h1>Rounded Image</h1>
+    <img src="Blue & White Futuristic Technology Facebook Cover.png" alt="Rounded Image" class="rounded-image" width="200" height="200">
+</body>
+</html>
